@@ -37,8 +37,9 @@ public class Juego {
 		
 	}
 	public void procesarJuego(){
-		n.procesarGravedad(5, miCanvas.getHeight());
-		n2.procesarGravedad(15, miCanvas.getHeight());
-		n3.procesarGravedad(25, miCanvas.getHeight());
+		//Cada vez que pasa por aqui es un ciclo
+		n.procesarGravedad(0.20, miCanvas.getHeight());
+		n2.procesarGravedad(0.20, miCanvas.getHeight());
+		n3.procesarGravedad(0.20, miCanvas.getHeight());
 	}
 }
